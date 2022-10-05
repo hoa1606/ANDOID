@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5BD85F"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/editText_userName_SI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="User name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_password_SI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_userName_SI"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/button_Signin_SI"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/editText_password_SI"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="70dp"
+        android:background="#B85555"
+        android:text="SIGNIN"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_Signup_SI"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/button_Signin_SI"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="70dp"
+        android:background="#36B2EA"
+        android:text="SIGNUP"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox_luuMK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_password_SI"
+        android:layout_marginLeft="250dp"
+        android:text="Luu mat khau" />
+
+
+</RelativeLayout>
