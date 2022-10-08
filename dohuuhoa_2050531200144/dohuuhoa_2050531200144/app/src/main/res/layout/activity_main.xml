@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#71ACDA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textVie_tenDN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#513636"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/ic_person"
+        android:hint="Tên đăng nhập" />
+
+    <EditText
+        android:id="@+id/editText_MK"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textVie_tenDN"
+        android:textColorHint="#513636"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/ic_key"
+        android:ems="10"
+        android:hint="  Mât khẩu"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView_quenMK"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_dangNhap"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:text="Quên mật khẩu" />
+
+    <Button
+        android:id="@+id/button_dangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/editText_MK"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#fff"
+        android:background="@drawable/button"
+        android:text="ĐĂNG NHẬP"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/button_dangKi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView_quenMK"
+        android:textColor="#fff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button"
+        android:text="Đăng kí"
+        android:textSize="35dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:text="Wecome Back"
+        android:textColor="#025495"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

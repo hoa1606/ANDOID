@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#71ACDA"
+    tools:context=".DangKi">
+
+    <EditText
+        android:id="@+id/editText_tenDN_SI"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#513636"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/ic_person"
+        android:ems="10"
+        android:hint="Tên đăng nhập"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <EditText
+        android:id="@+id/editText_MK1_SI"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText_email_SI"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#513636"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/ic_key"
+        android:ems="10"
+        android:hint="  Mật khẩu"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText_MK2_SI"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText_MK1_SI"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#513636"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/ic_key"
+        android:ems="10"
+        android:hint="  Nhập lại mật khẩu"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button_dangKi_SI"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/editText_MK2_SI"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button"
+        android:text="đăng kí"
+        android:textColor="#fff"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/button_dangNhap_SI"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/button_dangKi_SI"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button"
+        android:textSize="35dp"
+        android:textColor="#fff"
+        android:text="đăng nhập" />
+
+    <EditText
+        android:id="@+id/editText_email_SI"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText_tenDN_SI"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#513636"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/ic_email"
+        android:ems="10"
+        android:hint="  Email"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Create Accuont"
+        android:textColor="#025495"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
