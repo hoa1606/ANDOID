@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TT_ss_s22">
+
+    <ImageView
+        android:id="@+id/img_ss_s22"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/galaxy_s22_ultra" />
+
+    <TextView
+        android:id="@+id/tv_ten_ss_s22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/img_ss_s22"
+        android:text="Samsung S22 Ultra "
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_gia_ss_s22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_ten_ss_s22"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/img_ss_s22"
+        android:text="  27.000.000 "
+        android:textColor="#000"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_gia_ss_s22"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/img_ss_s22"
+        android:background="@drawable/tv_tt"
+        android:text="   128GB"
+        android:textColor="#000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_gia_ss_s22"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/img_ss_s22"
+        android:background="@drawable/tv_tt"
+        android:text="   Đen"
+        android:textColor="#000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/ttsp_ip11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_ss_s22"
+        android:layout_marginTop="10dp"
+        android:text=" Thông tin sản phẩm"
+        android:textColor="#000"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ttsp_ip11"
+        android:layout_marginTop="-1dp"
+        android:text="  Galaxy S22 Ultra 5G được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt....
+"
+        android:textColor="#000"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/tskt_ip11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ttsp_ip11"
+        android:layout_marginTop="150dp"
+        android:text=" Thông tin sản phẩm"
+        android:textColor="#000"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tskt_ip11"
+        android:layout_marginTop="-5dp"
+        android:text="MÀNG HÌNH:\n  Công nghệ màn hình:   Dynamic AMOLED 2X\n  Độ phân giải:  2K+ (1440 x 3088 Pixels) Pixels\n Màn hình rộng:  6.8-Tần số quét 120 Hz\n  Độ sáng tối đa: 1750 nits\n  Mặt kính cảm ứng:  Kính cường lực Corning Gorilla Glass Victus+\nCAMERA SAU:\n  Độ phân giải:
+Chính 108 MP và Phụ 12 MP, 10 MP, 10 MP\n  Đèn Flash: Đèn LED kép\nHỆ ĐIỀU HÀNH VÀ CPU:\n  Hệ điều hành:  Android 12\n  Chip xử lý (CPU): Snapdragon 8 Gen 1 8 nhân...
+"
+        android:textColor="#000"
+        android:textSize="19dp" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp"
+        android:text="BACK" />
+
+</RelativeLayout>
